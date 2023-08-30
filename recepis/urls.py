@@ -6,7 +6,7 @@ from recepis.views import (
 )
 
 urlpatterns = [
-    path('home/', home),
+    path('', home),
     path('about/', about),
     path('contact/', contact),
 ]
